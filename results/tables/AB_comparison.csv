@@ -1,0 +1,10 @@
+Metric,Processor A,Processor B,Difference (B - A)
+Circuit Depth,20,20,0
+Physical Qubits,5,7,2
+Total Operations,66,66,0
+Two-Qubit Gates (2Q),6,6,0
+SWAP Gates,0,0,0
+Noisy Energy (Ha),-2.917371,-1.651086,+1.266285
+Energy Error |E-E0| (Ha),1.841399,3.107684,+1.266285
+Postselection Yield,0.5911,0.5852,-0.0059
+Yield Uncertainty (±σ),±0.0077,±0.0077,+0.0000

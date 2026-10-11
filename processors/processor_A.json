@@ -1,0 +1,18 @@
+{
+  "name": "Processor_A_Online_5q",
+  "num_qubits": 5,
+  "description": "5-qubit fixed baseline graph (T-tree topology) with synthetic noise model",
+  "coupling_map": [
+    [0, 1], [1, 0],
+    [0, 2], [2, 0],
+    [0, 3], [3, 0],
+    [3, 4], [4, 3]
+  ],
+  "basis_gates": ["rz", "sx", "x", "cx"],
+  "noise": {
+    "type": "synthetic_challenge_model",
+    "single_qubit_depolarizing": 0.001,
+    "two_qubit_depolarizing": 0.01,
+    "readout_error": [[0.99, 0.01], [0.02, 0.98]]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Processor_B_Online_7q",
+  "num_qubits": 7,
+  "description": "7-qubit heavy-hex-inspired graph (contemporary compilation baseline)",
+  "coupling_map": [
+    [0, 1], [1, 0],
+    [1, 2], [2, 1],
+    [1, 3], [3, 1],
+    [3, 5], [5, 3],
+    [4, 5], [5, 4],
+    [5, 6], [6, 5]
+  ],
+  "basis_gates": ["rz", "sx", "x", "cx"],
+  "noise": {
+    "type": "synthetic_challenge_model",
+    "single_qubit_depolarizing": 0.001,
+    "two_qubit_depolarizing": 0.01,
+    "readout_error": [[0.99, 0.01], [0.02, 0.98]]
+  }
+}

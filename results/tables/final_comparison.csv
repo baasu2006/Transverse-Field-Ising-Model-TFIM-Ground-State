@@ -1,0 +1,18 @@
+Item,Value
+Problem Statement Code,S1
+Problem Statement Name,Ising Chain Ground State
+System Size,N=4 spins
+Hamiltonian Model,"TFIM (J=1.0, h=1.0)"
+Exact Ground Energy,-4.758770 Ha
+Ideal VQE Energy,-4.750879 Ha
+Ideal VQE Error,0.007891 Ha
+Processor A Ground Energy,-2.917371 Ha
+Processor A Energy Error,1.841399 Ha
+Processor B Ground Energy,-1.651086 Ha
+Processor B Energy Error,3.107684 Ha
+Processor A Depth,20
+Processor B Depth,20
+Processor A 2Q Gates,6
+Processor B 2Q Gates,6
+Processor A Yield,0.5911 ± 0.0077
+Processor B Yield,0.5852 ± 0.0077

@@ -1,0 +1,25 @@
+{
+  "name": "Processor_B_Online_9q_GraphicMotif",
+  "num_qubits": 9,
+  "description": "9-qubit extended heavy-hex motif directly representing the slide graphic",
+  "coupling_map": [
+    [0, 2], [2, 0],
+    [0, 3], [3, 0],
+    [0, 4], [4, 0],
+    [2, 6], [6, 2],
+    [6, 4], [4, 6],
+    [4, 8], [8, 4],
+    [3, 1], [1, 3],
+    [3, 7], [7, 3],
+    [4, 7], [7, 4],
+    [1, 5], [5, 1],
+    [5, 7], [7, 5]
+  ],
+  "basis_gates": ["rz", "sx", "x", "cx"],
+  "noise": {
+    "type": "synthetic_challenge_model",
+    "single_qubit_depolarizing": 0.001,
+    "two_qubit_depolarizing": 0.01,
+    "readout_error": [[0.99, 0.01], [0.02, 0.98]]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "problem_statement": "S1 - Ising Chain Ground State",
+  "theme": "Quantum Simulation",
+  "N": 4,
+  "J": 1.0,
+  "h": 1.0,
+  "exact_ground_energy": -4.758770483143635,
+  "hamiltonian_paulis": [
+    "IIZZ",
+    "IZZI",
+    "ZZII",
+    "IIIX",
+    "IIXI",
+    "IXII",
+    "XIII"
+  ],
+  "hamiltonian_coeffs": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ]
+}
